@@ -40,19 +40,18 @@ namespace SuperfeedrManager.Subscriptions
                     ReplayAllNotifications();
                     break;
 
-                case "delete": // SuperfeedrManager.exe delete hub.topic hub.callback
+                case "unsubscribe": // SuperfeedrManager.exe delete hub.topic hub.callback
                     httpStatusCode = DeleteSubscription(args[1], out response, args[2]);
                     Console.WriteLine(httpStatusCode.ToString() + " Response (if any): " + response);
                     break;
 
-                case "deleteall": // SuperfeedrManager.exe delete hub.topic
+                case "unsubscribeall": // SuperfeedrManager.exe delete hub.topic
                     DeleteAllSubscriptions();
                     break;
 
                 default:
                     break;
             }
-            Console.ReadLine();
         }
 
         public static HttpStatusCode ReplayNotification(string hubTopic, string hubCallback, out string response)
