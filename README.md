@@ -1,6 +1,6 @@
 # SuperfeedrManager.Subscriptions
 
-### SuperfeedrManager.Subscriptions (sm.subs) is a Windows (currently, will support Mac in future) command line utility for managing your Superfeedr subscriptions.
+### SuperfeedrManager.Subscriptions (sm.subs) is a Windows (currently, will support Mac in future) command line utility for managing your [Superfeedr](http://superfeedr.com) [subscriptions](https://documentation.superfeedr.com/subscribers.html).
 
 sm.subs has the following functions: create (implemented shortly), list, export, replay, replayall, unsubscribe, unsubscribeall
 
