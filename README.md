@@ -8,12 +8,18 @@ To configure sm.subs for your account, add your Superfeedr username and password
 
 ##### Command line options:  
 
-`sm.subs subscribe` *`hubtopic`* *`hubcallback`* [*`hubsecret`*] - Create subscription with hub.topic *`hubtopic`*, hub.callback *`hubcallback`* and hub.secret *`hubsecret`* (optional)
-`sm.subs list` - List all subscriptions
-`sm.subs export` - Export subscriptions
-`sm.subs replay` *`hubtopic`* *`hubcallback`* - Replay subscription with hub.topic *`hubtopic`* and hub.callback *`hubcallback`*
-`sm.subs replay all` - Replay all subscriptions
-`sm.subs unsubscribe` *`hubtopic`* *`hubcallback`* - Delete subscription with hub.topic *`hubtopic`* and hub.callback *`hubcallback`*
+`sm.subs subscribe` *`hubtopic`* *`hubcallback`* [*`hubsecret`*] - Create subscription with hub.topic *`hubtopic`*, hub.callback *`hubcallback`* and hub.secret *`hubsecret`* (optional)  
+
+`sm.subs list` - List all subscriptions  
+
+`sm.subs export` - Export subscriptions  
+
+`sm.subs replay` *`hubtopic`* *`hubcallback`* - Replay subscription with hub.topic *`hubtopic`* and hub.callback *`hubcallback`*  
+
+`sm.subs replay all` - Replay all subscriptions  
+
+`sm.subs unsubscribe` *`hubtopic`* *`hubcallback`* - Delete subscription with hub.topic *`hubtopic`* and hub.callback *`hubcallback`*  
+
 `sm.subs unsubscribeall` *`hubtopic`* *`hubcallback`* - Delete all subscriptions
 
 This is a VERY early release - no error handling, little configurability, no validation of command line parameters and has only been casually tested...so far.
